@@ -1,0 +1,23 @@
+{
+    "name": "agilegeeks/rhio",
+    "description": "REST HTTP client",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alexandru Gheorghita",
+            "email": "alex@agilegeeks.ro"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rhio\\": "src/"
+        }
+    }
+}
